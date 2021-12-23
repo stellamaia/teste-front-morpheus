@@ -1,7 +1,9 @@
 <template>
   <ul>
-    <li v-for="usuario of usuarios" :key="usuario.id">
-      {{ usuario.name }}
+    <input v-model="searchTerm" type="text" />
+    <li v-for="usuario of usuariosFiltrados" :key="usuario.id">
+      <span>{{ usuario.name }} </span>
+
       <hr />
     </li>
   </ul>
@@ -17,8 +19,17 @@ export default {
   data() {
     return {
       usuarios: [],
+      searchTerm: "",
     };
   },
+  computed: {
+    usuariosFiltrados() {
+      return this.usuarios.filter((usuario) => {
+        return usuario.name.toLowerCase().includes(this.searchTerm);
+      });
+    },
+  },
+  methods: {},
   created() {
     axios.get(baseURL).then((res) => {
       this.usuarios = res.data;

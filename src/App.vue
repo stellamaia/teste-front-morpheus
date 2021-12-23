@@ -1,10 +1,10 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <h1>Morpheus</h1>
+    <b-container id="titulo">
+      <h3 class="selected-item">Morpheus</h3>
       <router-link to="/">Cadastrar</router-link> |
       <router-link to="/listarUsuarios">Listar</router-link>
-    </div>
+    </b-container>
     <router-view/>
   </div>
 </template>
@@ -18,16 +18,29 @@
   color: #2c3e50;
 }
 
-#nav {
+#titulo {
   padding: 30px;
+
 }
 
-#nav a {
+#titulo a {
   font-weight: bold;
   color: #2c3e50;
 }
 
-#nav a.router-link-exact-active {
+#titulo a.router-link-exact-active {
   color: #42b983;
+}
+.selected-item{
+
+  height: 60px;
+  border: 2px solid lightgray;
+  border-radius: 5px;
+  padding: 10px 10px;
+
+  justify-content: space-between;
+ align-items: center;
+
+
 }
 </style>

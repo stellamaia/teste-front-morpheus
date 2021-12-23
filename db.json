@@ -2,28 +2,19 @@
   "usuarios": [
     {
       "id": 1,
-      "name": "Stella",
-      "age": 19
+      "name": "Stella Maia Vitorino",
+      "gender": "Feminino"
     },
     {
-      "name": "e",
-      "id": 2
+      "id": 2,
+      "name": "Marcela Melo",
+      "gender": "Feminino"
     },
     {
-      "name": "teste",
+      "name": "viviam",
       "id": 3
-    },
-    {
-      "name": "",
-      "id": 4
-    },
-    {
-      "name": "teste2",
-      "id": 5
-    },
-    {
-      "name": "teste3",
-      "id": 6
     }
+    
+    
   ]
 }
