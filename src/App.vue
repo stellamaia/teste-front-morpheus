@@ -5,7 +5,7 @@
       <router-link to="/">Cadastrar</router-link> |
       <router-link to="/listarUsuarios">Listar</router-link>
     </b-container>
-    <router-view/>
+    <router-view />
   </div>
 </template>
 
@@ -20,7 +20,6 @@
 
 #titulo {
   padding: 30px;
-
 }
 
 #titulo a {
@@ -31,16 +30,12 @@
 #titulo a.router-link-exact-active {
   color: #42b983;
 }
-.selected-item{
-
+.selected-item {
   height: 60px;
   border: 2px solid lightgray;
   border-radius: 5px;
   padding: 10px 10px;
-
   justify-content: space-between;
- align-items: center;
-
-
+  align-items: center;
 }
 </style>

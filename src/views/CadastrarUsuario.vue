@@ -2,8 +2,10 @@
   <div id="app">
     <input type="text" v-model="usuarioName" @keyup.enter="addUsuario" />
     <div v-for="ultimoUsuario of ultimosUsuarios" :key="ultimoUsuario.id">
+      
       {{ ultimoUsuario.name }}
       <hr />
+      
     </div>
   </div>
 </template>

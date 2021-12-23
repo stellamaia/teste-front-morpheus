@@ -2,19 +2,32 @@
   "usuarios": [
     {
       "id": 1,
-      "name": "Stella Maia Vitorino",
-      "gender": "Feminino"
+      "name": "Stella Maia ",
+      "gender": "Feminino",
+      "age": 19,
+      "city": " Uberlândia - MG"
     },
     {
       "id": 2,
-      "name": "Marcela Melo",
-      "gender": "Feminino"
+      "name": "Vivian Ferreira",
+      "gender": "Feminino",
+      "age": 26,
+      "city": " São Paulo - SP"
     },
     {
-      "name": "viviam",
-      "id": 3
+      "id": 3,
+      "name": "Marcelo Oliveira ",
+      "gender": "Masculino",
+      "age": 34,
+      "city": "Santa Catarina - SC"
+    },
+    {
+      "name": "vivian",
+      "id": 4
+    },
+    {
+      "name": "vitoria",
+      "id": 5
     }
-    
-    
   ]
 }
