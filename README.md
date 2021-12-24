@@ -32,10 +32,10 @@ npm run serve
 
 ## Features
 
-- Cadastrar Usuarios
-- Listar todos Usuarios 
-- Listar ultimos usuarios cadastrados
-- Busca de Usuarios
+- Cadastrar Usuários
+- Listar todos Usuários
+- Listar ultimos usuários cadastrados
+- Busca de Usuários
 - Grid de Cards
 
 ## Teclonogias
