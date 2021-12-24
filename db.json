@@ -22,12 +22,32 @@
       "city": "Santa Catarina - SC"
     },
     {
-      "name": "vivian",
+      "name": "stella",
+      "gender": "",
+      "age": "11",
+      "city": "Uberlândia",
       "id": 4
     },
     {
-      "name": "vitoria",
+      "name": "stela",
+      "gender": "Feminino",
+      "age": "1",
+      "city": "Uberlândia",
       "id": 5
+    },
+    {
+      "name": "Maiaa",
+      "gender": "Feminino",
+      "age": "1",
+      "city": "São Paulo",
+      "id": 6
+    },
+    {
+      "name": "Wayner",
+      "gender": "Masculino",
+      "age": "4",
+      "city": "São Paulo",
+      "id": 7
     }
   ]
 }
