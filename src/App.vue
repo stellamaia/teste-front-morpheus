@@ -28,7 +28,8 @@
 }
 
 #titulo a.router-link-exact-active {
-  color: #42b983;
+  color: #16b9ac;
+ 
 }
 .selected-item {
   height: 60px;
@@ -38,4 +39,5 @@
   justify-content: space-between;
   align-items: center;
 }
+
 </style>

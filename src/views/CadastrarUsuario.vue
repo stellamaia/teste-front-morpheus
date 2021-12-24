@@ -21,7 +21,8 @@
             required
           ></b-form-input>
         </b-form-group>
-
+      <b-row>
+        <b-col cols="6" sm="6" lg="12">
         <b-form-group id="input-group-3" label="Genêro:" label-for="input-3">
           <b-form-select
             id="input-3"
@@ -30,7 +31,8 @@
             required
           ></b-form-select>
         </b-form-group>
-
+  </b-col>
+    <b-col  >
         <b-form-group id="input-group-3" label="Cidade:" label-for="input-3">
           <b-form-select
             id="input-3"
@@ -38,10 +40,16 @@
             :options="cidadeList"
             required
           ></b-form-select>
+          
         </b-form-group>
 
+ 
         <b-button type="submit" variant="primary">Submit</b-button>
         <b-button type="reset" variant="danger">Reset</b-button>
+   
+    
+        </b-col>
+        </b-row>
       </b-form>
     </b-row>
     <b-row>
@@ -124,4 +132,25 @@ export default {
 </script>
 
 <style scoped>
+.form-control{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.d-block{
+align-items: flex-end;
+}
+.btn-primary{
+  margin: 20px;
+background: rgba(0, 164, 214, 0.966);
+border: none;
+}
+.btn-danger{
+background: rgba(6, 197, 197, 0.966);
+border: none;
+}
+.custom-select{
+border-radius: 3px;
+border-color: rgb(197, 196, 196);
+}
+
 </style>
