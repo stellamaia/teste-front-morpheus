@@ -41,6 +41,6 @@ npm run serve
 ## Teclonogias
 
 - Vuejs
-- VueBootrap
+- BootstrapVue 
 - VueRouter
 - jsonServer
