@@ -10,7 +10,7 @@ A tela de cadastro deverá apenas INCLUIR registros novos
 O sistema não necessita  usar banco de dados para armazenar valores, podendo salvar os dados em um arquivo de texto. Caso queira utilizar algum tipo de banco de dados envie também o script de inicialização dele ou um backup do banco utilizado.
 
 Não é necessário desenvolver tela de autenticação.
-O desenvolvimento deve ser feito com backend e frontend separados. O backend deve ser desenvolvido em java, python ou nodejs (framework a escolha ), e o frontend desenvolvido em angularJS,  angular 4+, vueJs ou ReactJs.
+O frontend desenvolvido em angularJS,  angular 4+, vueJs ou ReactJs.
 
 
 
